@@ -1,0 +1,22 @@
+# submit a file to execution node 
+qsub -l execution submit-strong-omp.sh ./mandel-omp 8
+
+# submitting scripts
+submit-strong-omp.sh # executes the prgram with 8,7,6,5,4,3,2,1 threads to check if scalabilty strong 
+submit-omp.sh	# getting the time of execution
+submit-omp-i.sh # getting the .prv file for wxparaver
+submit-sec.sh # sequential submission
+
+# use paraver
+wxparaver
+File -> load Trace .prv File
+
+# visualize post script from submit-strong-omp.sh
+gs .ps file
+
+
+# coyping lab directory
+tar -zxvf lab3.tar.gz /scratch/nas/1/par0/sessions/lab3
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwNTIyMDMyMjNdfQ==
+-->
