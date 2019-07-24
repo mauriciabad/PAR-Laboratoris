@@ -1,4 +1,5 @@
 # PAR-Laboratoris
+Profe: Jordi Tubella
 
 - [LAB1](/LAB1) - Nota: 1.5
 - [LAB2](/LAB2) - Nota: 1
